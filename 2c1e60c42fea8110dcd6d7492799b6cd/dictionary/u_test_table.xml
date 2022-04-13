@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Test table" max_length="40" name="u_test_table" sizeclass="3" type="collection">
+        <element label="Parent incident" max_length="32" name="u_parent_incident" reference="incident" type="reference"/>
+        <element label="Remarks" max_length="4000" name="u_remarks" type="string"/>
+        <element choice="1" label="User status" mandatory="true" max_length="40" name="u_user_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" value="1001"/>
+                <element inactive_on_update="false" label="Complete" value="1002"/>
+                <element inactive_on_update="false" label="Pending" value="1003"/>
+                <element inactive_on_update="false" label="保留中" language="ja" value="1003"/>
+                <element inactive_on_update="false" label="完了" language="ja" value="1002"/>
+                <element inactive_on_update="false" label="進行中" language="ja" value="1001"/>
+            </choice>
+        </element>
+    </element>
+</database>

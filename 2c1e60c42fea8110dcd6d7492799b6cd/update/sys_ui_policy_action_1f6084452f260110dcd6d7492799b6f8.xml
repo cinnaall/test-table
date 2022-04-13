@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_user_status</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-28 04:56:03</sys_created_on>
+        <sys_id>1f6084452f260110dcd6d7492799b6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_user_status</sys_name>
+        <sys_package display_value="TestApp" source="2c1e60c42fea8110dcd6d7492799b6cd">2c1e60c42fea8110dcd6d7492799b6cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TestApp">2c1e60c42fea8110dcd6d7492799b6cd</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1f6084452f260110dcd6d7492799b6f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-28 04:56:03</sys_updated_on>
+        <table>u_test_table</table>
+        <ui_policy display_value="Make these fields to Read-only when Active is false">927d73b02f260110dcd6d7492799b6fe</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
